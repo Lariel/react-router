@@ -7,8 +7,8 @@ import Conteudo3 from './Conteudo3'
 
 export default props =>
     <Switch>
-        <Route path='/' exact componet={Conteudo1} />
-        <Route path='/conteudo2' componet={Conteudo2} />
-        <Route path='/conteudo3' componet={Conteudo3} />
+        <Route path='/' exact component={Conteudo1} />
+        <Route path='/conteudo2' component={Conteudo2} />
+        <Route path='/conteudo3' component={Conteudo3} />
         <Redirect from='*' to='/'/>
     </Switch>
